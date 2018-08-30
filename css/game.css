@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:'arial','sans-serif';
+}
+.content{
+	background: url(../img/bg.png) no-repeat 0 0;
+	width: 393px;
+	height: 590px;
+	margin: 20px auto 0 auto;
+	position: relative;
+}
+.info{
+	width: 393px;
+	height: 30px;
+	margin: 0 auto;
+	background-color: #ccc;
+}
+.info>p{
+	line-height: 30px;
+	text-align: center;
+}
+.score{
+	color: #fff;
+	font-size: 22px;
+	padding-top: 14px;
+	padding-left: 80px;
+}
+.time{
+	color: #fff;
+	font-size: 33px;
+	padding-top: 32px;
+    padding-left: 166px;
+}
+.start{
+	color: #fff;
+	background: linear-gradient(#e55c3d,#c50000);
+	border: none;
+	display: block;
+	font-size: 22px;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    /* text-align: center; */
+    border: 1px solid #e55c3d;
+    border-radius: 25px;
+    position: absolute;
+    top: 440px;
+    left: 50%;
+    margin-left: -100px;
+    outline: none;
+}
+.rules{
+	width: 393px;
+	height: 490px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 20px;
+    left: 50%;
+    margin-left: -197px;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    padding-top: 130px;
+    font-size: 18px;
+    display: none;
+}
+.rules>a{
+	text-decoration:none;
+}
+.gameover{
+	width: 393px;
+	height: 420px;
+	background-color: rgba(0,0,0,0.5);
+	padding-top: 200px;
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	margin-left: -197px;
+	text-align: center;
+	font-size: 40px;
+	display: none; 
+}
+.gameover>button{
+	border: none;
+	background: linear-gradient(#198dd0,#05479c);
+	color: #fff;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	/*border: 1px solid #05479c;*/
+	border-radius: 20px;
+	font-size: 22px;
+	position: absolute;
+	top: 440px;
+	left: 50%;
+	margin-left: -100px;
+}
+.gameover>p{
+	color: #ff4500;
+	font-weight: bold;
+	text-shadow: 3px 3px 0 #fff;
+}
